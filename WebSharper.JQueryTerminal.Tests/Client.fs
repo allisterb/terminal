@@ -27,7 +27,7 @@ open WebSharper.UI.Html
 open WebSharper.UI.Client
 open WebSharper.UI.Templating
 open WebSharper.JQuery
-open WebSharper.JQueryTerminal
+open SMApp.JQueryTerminal
 
 [<JavaScript>]
 module Client =
