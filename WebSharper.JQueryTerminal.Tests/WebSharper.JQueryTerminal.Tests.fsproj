@@ -13,7 +13,9 @@
     <Content Include="template.html" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="../WebSharper.JQueryTerminal\WebSharper.JQueryTerminal.fsproj" />
+    <Reference Include="SMApp.JQueryTerminal">
+      <HintPath>..\..\SMApp.JQueryTerminal\bin\Debug\netstandard2.0\SMApp.JQueryTerminal.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="..\paket-files\wsbuild\github.com\dotnet-websharper\build-script\WebSharper.Fake.targets" Condition="Exists('..\paket-files\wsbuild\github.com\dotnet-websharper\build-script\WebSharper.Fake.targets')" />
   <Import Project="..\.paket\Paket.Restore.targets" />
